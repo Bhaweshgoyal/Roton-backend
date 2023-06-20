@@ -1,0 +1,27 @@
+{
+  "name": "ecomm_services",
+  "version": "1.0.0",
+  "description": "Roton Consultancies project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhaweshgoyal/Roton-Consultancies-Ecomm.git"
+  },
+  "author": "bhawesh goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhaweshgoyal/Roton-Consultancies-Ecomm/issues"
+  },
+  "homepage": "https://github.com/Bhaweshgoyal/Roton-Consultancies-Ecomm#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.5",
+    "sequelize": "^6.32.0"
+  }
+}
