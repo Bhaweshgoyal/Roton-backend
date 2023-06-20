@@ -22,7 +22,8 @@ const getAllOrders = async (req, res) => {
 };
 const getProductOfOrders = async (req, res) => {
   try {
-    const response = await OrderServices.getProductOfOrders(req.body.orderId);
+    const response = await OrderServices.getProductOfOrders(req.params.orderId);
+    console.log(response)
     if (response) {
       return res.status(201).json({
         message: "Successfull",
